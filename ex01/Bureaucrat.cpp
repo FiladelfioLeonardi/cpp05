@@ -6,11 +6,12 @@
 /*   By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 11:20:59 by fefo              #+#    #+#             */
-/*   Updated: 2026/04/21 15:08:24 by fefo             ###   ########.fr       */
+/*   Updated: 2026/05/26 16:44:37 by fefo             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Bureaucrat.hpp"
+#include "Form.hpp"
 
 int Bureaucrat::checkGrade(int grade)
 {
@@ -67,6 +68,12 @@ void Bureaucrat::decrementGrade(int decrement)
     setGrade(final_grade);
     std::cout << "Grade decremented by " << decrement << "." << std::endl;
 }
+
+void    Bureaucrat::signForm(Form& form)
+{
+    form.beSigned(*this);
+}
+
 
 std::ostream& operator<<(std::ostream& out, const Bureaucrat& b)
 {

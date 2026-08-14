@@ -6,7 +6,7 @@
 #    By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/21 11:21:02 by fefo              #+#    #+#              #
-#    Updated: 2026/04/21 11:22:14 by fefo             ###   ########.fr        #
+#    Updated: 2026/05/27 16:55:16 by fefo             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,10 @@ FLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 SRCS =	main.cpp \
 		Bureaucrat.cpp \
-
+		Form.cpp \
+		../Tester/ex01/Tester.cpp \
+		../Tester/common.cpp
+		
 HEADERS = Bureaucrat.hpp
 
 LIB = -I .
