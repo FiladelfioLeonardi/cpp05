@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+         #
+#    By: fileonar <fileonar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/21 11:21:02 by fefo              #+#    #+#              #
-#    Updated: 2026/05/27 16:57:50 by fefo             ###   ########.fr        #
+#    Updated: 2026/10/15 20:50:09 by fileonar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,8 +16,7 @@ FLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 SRCS =	main.cpp \
 		Bureaucrat.cpp \
-		../Tester/ex00/Tester.cpp \
-		../Tester/common.cpp
+
 		
 HEADERS = Bureaucrat.hpp
 

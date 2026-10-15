@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: fileonar <fileonar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 11:20:52 by fefo              #+#    #+#             */
-/*   Updated: 2026/10/09 21:51:30 by fefo             ###   ########.fr       */
+/*   Updated: 2026/10/15 20:49:25 by fileonar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Bureaucrat.hpp"
-#include "../Tester/ex00/Tester00.hpp"
 
 int main()
 {
