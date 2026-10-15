@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AForm.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: fileonar <fileonar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 20:01:01 by fefo              #+#    #+#             */
-/*   Updated: 2026/05/27 23:11:04 by fefo             ###   ########.fr       */
+/*   Updated: 2026/10/15 20:54:05 by fileonar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,6 @@
 
 #include <string>
 #include <exception>
-// #include "../Tester/ex02/Tester02.hpp"
-#include "../Tester/common.hpp"
-#include "Form.hpp"
 
 class Bureaucrat;
 
@@ -65,4 +62,3 @@ class AForm
 // AForm    makeAForm();
 
 #endif
-

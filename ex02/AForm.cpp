@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "AForm.hpp"
+#include "Bureaucrat.hpp"
 
 AForm::AForm(std::string const& name, int signGrade, int execGrade)
 : name(name), isSigned(false), signGrade(signGrade), execGrade(execGrade)

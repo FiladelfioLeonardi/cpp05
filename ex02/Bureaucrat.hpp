@@ -18,7 +18,7 @@
 #include <stdexcept>
 #include <unistd.h>
 
-class Form;
+class AForm;
 
 class Bureaucrat
 {
@@ -35,7 +35,8 @@ class Bureaucrat
         int     checkGrade(int grade);
         void    incrementGrade(int increment);
         void    decrementGrade(int decrement);
-        void    signForm(Form& form);
+        void    signForm(AForm& form);
+        void    executeForm(AForm const& form) const;
         class GradeTooLowException : public std::exception
         {
             public:
