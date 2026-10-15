@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fefo <fefo@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: fileonar <fileonar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 11:20:52 by fefo              #+#    #+#             */
-/*   Updated: 2026/10/09 21:53:10 by fefo             ###   ########.fr       */
+/*   Updated: 2026/10/15 20:59:54 by fileonar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../Tester/ex01/Tester01.hpp"
+#include "Bureaucrat.hpp"
 
 
 int main()
@@ -45,29 +45,3 @@ int main()
     }
     return 0;
 }
-
-
-
-//testing loop
-// int main()
-// {
-    // std::cout << "----------TEST FORM-----------" << std::endl;
-    // while (1)
-    // {
-    //     try
-    //     {
-    //         Bureaucrat Bureaucrat = makeBureaucrat();        
-    //         Form form = makeForm();
-    //         while(1)
-    //         {
-    //             int i = MainHub01(&Bureaucrat, &form);
-    //             if (i == -2)
-    //                 return 0;
-    //         }
-    //     }
-    //     catch(const std::exception& e)
-    //     {
-    //         std::cerr << e.what() << '\n';
-    //     }
-    // }
-// }
